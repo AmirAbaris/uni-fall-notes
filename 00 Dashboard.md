@@ -1,6 +1,7 @@
 # University Dashboard
 
 ## Current courses
+- [[Entrepreneurship Fundamentals/Course|Entrepreneurship Fundamentals — مبانی کارآفرینی]]
 - [[Statistics and Probability Fundamentals/Course|Statistics and Probability Fundamentals]]
 
 ## This week

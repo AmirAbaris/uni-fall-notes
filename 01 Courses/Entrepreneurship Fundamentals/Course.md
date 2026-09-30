@@ -18,7 +18,7 @@ status: active
 -
 
 ## Lecture notes
-- [[Lectures/2026-09-30 Entrepreneurship Fundamentals]]
+- [[01 Courses/Entrepreneurship Fundamentals/Lectures/2026-09-30 Entrepreneurship Fundamentals|2026-09-30 — مبانی کارآفرینی]]
 
 ## Concepts
 

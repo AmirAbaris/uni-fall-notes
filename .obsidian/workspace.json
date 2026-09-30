@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-09-27 Statistics and Probability Fundamentals.md",
+                "file": "01 Courses/Entrepreneurship Fundamentals/Lectures/2026-09-30 Entrepreneurship Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-27 Statistics and Probability Fundamentals"
+              "title": "2026-09-30 Entrepreneurship Fundamentals"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 381.81640625
   },
   "right": {
     "id": "7ac3aa3b95f39ed5",
@@ -190,23 +190,25 @@
   },
   "active": "1a559a83319e2abe",
   "lastOpenFiles": [
-    "01 Courses/Statistics and Probability Fundamentals/Course.md",
     "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-09-27 Statistics and Probability Fundamentals.md",
+    "90 Templates/Lecture.md",
+    "90 Templates/Course.md",
+    "90 Templates/Assignment.md",
+    "01 Courses/Statistics and Probability Fundamentals/Course.md",
+    "01 Courses/Entrepreneurship Fundamentals/Lectures/2026-09-30 Entrepreneurship Fundamentals.md",
+    "01 Courses/Entrepreneurship Fundamentals/Lectures",
+    "01 Courses/Entrepreneurship Fundamentals/Course.md",
+    "01 Courses/Entrepreneurship Fundamentals/Concepts",
+    "01 Courses/Entrepreneurship Fundamentals/Assignments",
+    "01 Courses/Entrepreneurship Fundamentals",
     "00 Dashboard.md",
     "01 Courses/Statistics and Probability Fundamentals/Lectures",
     "01 Courses/Statistics and Probability Fundamentals/Concepts",
     "01 Courses/Statistics and Probability Fundamentals/Assignments",
     "01 Courses/Statistics and Probability Fundamentals",
     "99 Archive",
-    "90 Templates/Lecture.md",
-    "90 Templates/Course.md",
-    "90 Templates/Assignment.md",
     "90 Templates",
-    "03 References",
-    "02 Projects",
     "01 Courses/Statistics Fundamentals/Lectures/2026-09-27 Statistics Fundamentals.md",
-    "01 Courses/Statistics Fundamentals/Lectures",
-    "01 Courses/Statistics Fundamentals/Course.md",
-    "01 Courses/Statistics Fundamentals/Concepts"
+    "01 Courses/Statistics Fundamentals/Course.md"
   ]
 }

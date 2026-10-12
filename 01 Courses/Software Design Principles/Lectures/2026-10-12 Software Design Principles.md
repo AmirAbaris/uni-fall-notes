@@ -26,3 +26,6 @@ Write a short explanation from memory, then check it against the lecture materia
 
 ## Related concepts
 -
+
+## Assignment
+- [[01 Courses/Software Design Principles/Assignments/Semester Presentation Project|Semester Presentation Project]]: choose one subject and extend it through weekly assignments throughout the semester.

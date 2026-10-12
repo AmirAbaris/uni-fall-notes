@@ -22,3 +22,4 @@ status: active
 ## Concepts
 
 ## Assignments
+- [[01 Courses/Software Design Principles/Assignments/Semester Presentation Project|Semester Presentation Project]]

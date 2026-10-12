@@ -4,6 +4,7 @@
 - [[Introduction to Data Mining/Course|Introduction to Data Mining]]
 - [[Entrepreneurship Fundamentals/Course|Entrepreneurship Fundamentals — مبانی کارآفرینی]]
 - [[Statistics and Probability Fundamentals/Course|Statistics and Probability Fundamentals]]
+- [[Software Design Principles/Course|Software Design Principles]]
 
 ## This week
 - [ ] Review [[Statistics and Probability Fundamentals/Lectures/2026-09-27 Statistics and Probability Fundamentals]]

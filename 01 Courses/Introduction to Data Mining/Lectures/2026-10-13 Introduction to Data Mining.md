@@ -110,6 +110,35 @@ For the first document, the stored word counts are:
 
 **Why save this?** The database preserves the results after the program closes and lets us query word frequencies across many documents without tokenizing them again. The document ID keeps each document's counts separate; the primary key allows only one row per word per document. We store raw counts and total tokens so normalized TF can be calculated when needed. Each run of this example adds a new document.
 
+### Word-count vectors: `[2, 1, 1, 0]`
+
+The lecturer's example may be a **term-frequency vector**, also called a **bag-of-words count vector**. Each position corresponds to a word in a fixed, ordered vocabulary.
+
+```python
+vocabulary = ["data", "mining", "patterns", "python"]
+example_counts = Counter(tokenize("Data data mining patterns."))
+vector = [example_counts[word] for word in vocabulary]
+print(vector)
+# [2, 1, 1, 0]
+```
+
+| Position | Word | Count |
+| --- | --- | --- |
+| 0 | data | 2 |
+| 1 | mining | 1 |
+| 2 | patterns | 1 |
+| 3 | python | 0 |
+
+Here, **data appears twice**, mining and patterns appear once each, and python is absent. These are raw TF values. The vector preserves the vocabulary order, but does not preserve the order of words in the original sentence. This positional order is different from the ranking of ordinal categories described above.
+
+**How to store it:** A database can store a document ID and the vector as an array, or as JSON text in SQLite. The vocabulary order must also be saved so each position keeps its meaning. For a small example, a JSON value stored in a SQLite `TEXT` column could be:
+
+```json
+{"vocabulary": ["data", "mining", "patterns", "python"], "counts": [2, 1, 1, 0]}
+```
+
+For many documents, save the shared vocabulary once and reference it from each document's vector. Using the same vocabulary order for every document lets us compare vectors and give numeric features to machine learning models. With a large vocabulary, storing only nonzero counts saves space; the `word_counts` table above already does this.
+
 ## Questions to resolve
 -
 

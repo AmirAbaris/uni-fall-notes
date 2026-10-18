@@ -20,6 +20,7 @@ status: active
 ## Lecture notes
 - [[Lectures/2026-09-27 Statistics and Probability Fundamentals]]
 - [[Lectures/2026-10-04 Statistics and Probability Fundamentals]]
+- [[Lectures/2026-10-18 Statistics and Probability Fundamentals]]
 
 ## Concepts
 

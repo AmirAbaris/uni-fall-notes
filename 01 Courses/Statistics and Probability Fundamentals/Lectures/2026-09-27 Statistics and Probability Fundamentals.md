@@ -4,7 +4,7 @@ date: 2026-09-27
 type: lecture
 original_title: مبانی آمار و احتمالات
 ---
-# Statistics and Probability Fundamentals
+****# Statistics and Probability Fundamentals
 
 Original lecture title: مبانی آمار و احتمالات
 
@@ -83,7 +83,7 @@ Original lecture title: مبانی آمار و احتمالات
 - Can I explain the key definitions without looking?
 
 ## After-class summary
-Write a short explanation from memory, then check it against the lecture material.
+- position is r, p(n, r)
 
 ## Related concepts
 -

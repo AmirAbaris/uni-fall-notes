@@ -18,6 +18,7 @@ status: active
 
 ## Lecture notes
 - [[01 Courses/Software Design Principles/Lectures/2026-10-12 Software Design Principles|2026-10-12 — Software Design Principles]]
+- [[01 Courses/Software Design Principles/Lectures/2026-10-26 Software Design Principles|2026-10-26 — Software Design Principles]]
 
 ## Concepts
 

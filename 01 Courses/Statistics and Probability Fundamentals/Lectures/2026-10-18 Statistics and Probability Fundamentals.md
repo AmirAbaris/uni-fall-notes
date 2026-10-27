@@ -66,12 +66,12 @@ $P(A\cap B) = (12/13)^{3} - (11/13)^{3} \approx  0.18$
 ## Questions to resolve
 -
 
-## Recall questions
+## Recall **questions**
 - What were the main ideas from this lecture?
 - Can I explain the key definitions without looking?
 
 ## After-class summary
-Write a short explanation from memory, then check it against the lecture material.
+- total **P**(s) = 1
 
 ## Related concepts
 -

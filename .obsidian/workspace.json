@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-10-18 Statistics and Probability Fundamentals.md",
-                "mode": "source",
+                "file": "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 0 - Context.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-18 Statistics and Probability Fundamentals"
+              "title": "Weeto DFD Level 0 - Context"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.81640625,
-    "collapsed": true
+    "width": 381.81640625
   },
   "right": {
     "id": "7ac3aa3b95f39ed5",
@@ -191,21 +190,25 @@
   },
   "active": "38ac60ac403b5985",
   "lastOpenFiles": [
+    "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 1 - Booking.md",
+    "01 Courses/Software Design Principles/Assignments/Weeto Organizational Chart.md",
+    "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 0 - Context.md",
+    "01 Courses/Software Design Principles/Assignments/Semester Presentation Project.md",
+    "01 Courses/Software Design Principles/Lectures/2026-10-26 Software Design Principles.md",
+    "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-09-27 Statistics and Probability Fundamentals.md",
+    "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-10-18 Statistics and Probability Fundamentals.md",
+    "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-10-04 Statistics and Probability Fundamentals.md",
+    "01 Courses/Entrepreneurship Fundamentals/Lectures/2026-10-14 Entrepreneurship Fundamentals.md",
     "Screenshot 2026-10-18 at 9.46.45 AM.png",
     "Screenshot 2026-10-18 at 9.14.23 AM.png",
     "Screenshot 2026-10-18 at 9.07.23 AM.png",
     "Screenshot 2026-10-18 at 8.51.57 AM.png",
     "Screenshot 2026-10-18 at 8.31.58 AM.png",
     "01 Courses/Statistics and Probability Fundamentals/Course.md",
-    "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-10-18 Statistics and Probability Fundamentals.md",
-    "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-10-04 Statistics and Probability Fundamentals.md",
     "00 Dashboard.md",
-    "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-09-27 Statistics and Probability Fundamentals.md",
-    "01 Courses/Entrepreneurship Fundamentals/Lectures/2026-10-14 Entrepreneurship Fundamentals.md",
     "01 Courses/Introduction to Data Mining/Lectures/2026-10-13 Introduction to Data Mining.md",
     "01 Courses/Introduction to Data Mining/Lectures/2026-10-06 Introduction to Data Mining.md",
     "01 Courses/Software Design Principles/Lectures/2026-10-12 Software Design Principles.md",
-    "01 Courses/Software Design Principles/Assignments/Semester Presentation Project.md",
     "01 Courses/Software Design Principles/Assignments",
     "01 Courses/Software Design Principles/Concepts",
     "01 Courses/Software Design Principles/Lectures",

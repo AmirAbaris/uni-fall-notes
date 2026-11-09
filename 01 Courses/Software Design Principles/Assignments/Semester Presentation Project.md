@@ -53,44 +53,56 @@ The backend repository is a Go HTTP API backed by PostgreSQL. Its routes and mig
 
 ### Basis and assumptions
 
-Cal.com is used as inspiration for the functions and founder responsibilities. Cal.com's public materials identify Bailey Pumfleet as CEO and Peer Richelsen as Chairman; its company/team description says Bailey leads go-to-market, marketing, sales and the rest of the business, while Peer leads product and engineering. Cal.com's team directory lists functions including Engineering, Platform, Product, Support, Enterprise, Compliance, Marketing, Growth and Sales. The public sources do **not** publish a complete reporting-line chart or explicitly say that Peer reports to Bailey.
+The organizational chart has been redesigned as a realistic, scalable, enterprise-grade technology company hierarchy (inspired by mature SaaS benchmarks like Cal.com, Slack, and Zoom). Instead of an oversimplified three-box structure, it reflects a complete executive leadership (C-Suite) and specialized functional departments that support scaling from seed stage to series A/B.
 
-For this university assignment, the Weeto diagram shows a conventional company hierarchy: the CEO is at the top, with Product & Engineering, Go-to-Market, and Operations & Customer Experience leads reporting to the CEO. The departments beneath them adapt Cal.com's published team functions to Weeto's needs. This is a **proposed Weeto hierarchy informed by Cal.com's published roles and teams**, not a claim about Cal.com's exact reporting lines or Weeto's current employees.
+The organizational hierarchy includes:
+- **Board of Directors (هیئت مدیره) & CEO (مدیرعامل):** Corporate governance, strategy, and overall executive direction, supported by Chief of Staff & Legal Counsel.
+- **Technology & Engineering (CTO):** Core software engineering (Backend, Frontend, Integrations), Cloud Infrastructure/DevOps (SRE & security), and QA/Test Automation.
+- **Product & Design (CPO):** Core and Enterprise Product Managers, UI/UX Designers, User Researchers, and Product Data Analysts.
+- **Marketing & Growth (CMO):** Performance/growth marketing, content marketing, social media, and brand/PR.
+- **Sales & Business Development (VP of Sales):** Enterprise B2B sales and strategic partnerships with job portals and ATS systems.
+- **Operations & Customer Experience (COO):** Customer Success (enterprise onboarding and retention), 24/7 technical support helpdesk, and SLA compliance.
+- **Finance, Legal & People (CFO):** People operations / HR, talent acquisition, and finance & accounting.
 
 Open the organizational chart on its own note for a clearer, full-width view:
 [[01 Courses/Software Design Principles/Assignments/Weeto Organizational Chart|Weeto Organizational Chart]].
 
 ### How to explain it
 
-- **CEO / Founder:** owns company direction and coordinates the functions. At the MVP stage, this may be the founder wearing several hats.
-- **Product:** product management (PM), user experience/design (UX), and user research shape the roadmap and Persian-first booking experience.
-- **Engineering:** backend, frontend, quality assurance (QA), integrations, infrastructure, security and privacy deliver and operate the platform.
-- **Growth & Market:** marketing, sales and customer success find hiring teams, grow adoption and help organizations get value from Weeto.
-- **Operations:** support, finance and administration handle user requests and routine business operations.
-
-**MVP reality:** The PRD describes a solo-developer build. This chart represents a sensible structure as Weeto grows; initially one person can cover multiple functions and some responsibilities can be outsourced. Do not imply all positions are currently staffed.
+- **Executive & Governance:** Clear separation between board governance and daily operational C-suite execution.
+- **Scalable Divisions:** Each department has specialized leads and contributor roles, avoiding bottlenecking multiple disparate functions into a single vague bucket.
+- **Growth Stage Reality:** In early MVP stages, co-founders wear multiple hats (e.g., technical founder spans CTO + Product). As the company scales and secures enterprise contracts, departments naturally populate their designated teams without restructuring the company's organizational DNA.
 
 ## 3. Data-flow diagram (DFD / نمودار جریان داده)
 
 ### DFD Level 0 — Context diagram
 
-The whole Weeto system is shown as one process and its exchanges with outside actors/services.
+The whole Weeto system is shown as one central process (`سامانهٔ Weeto`) interacting with outside actors and external cloud services:
+- **Recruiter (مسئول استخدام):** sets up account, organization, interview types, and availability.
+- **Candidate (داوطلب):** queries available slots and books/manages appointments.
+- **Google Calendar / Meet:** cloud calendar and meeting provider for generating online video links.
+- **Email Service (سرویس ایمیل):** external service for delivering confirmation and reminder emails.
 
 Open the context diagram on its own note:
 [[01 Courses/Software Design Principles/Assignments/Weeto DFD Level 0 - Context|Weeto DFD Level 0 — Context]].
 
-### DFD Level 1 — Interview booking flow
+### DFD Level 1 — Interview booking flow (Refactored to Academic Scope)
+
+Following direct instructor feedback regarding class progress, **DFD Level 1 has been refactored to focus strictly on functional decomposition and service-to-service data flows**, deliberately omitting database data stores (`D1..D5`) and advanced backend plumbing (such as outbox queues, worker daemons, and token hashes):
+1. `1.0` مدیریت حساب و مشخصات سازمان (Account & Organization Setup)
+2. `2.0` تنظیم انواع مصاحبه و ساعات کاری مجاز (Interview Type & Availability Setup)
+3. `3.0` استعلام و نمایش زمان‌های آزاد (Slot Availability & Discovery)
+4. `4.0` ثبت و مدیریت نوبت مصاحبه (Booking, Rescheduling & Cancellation)
+5. `5.0` آماده‌سازی و ارسال اعلان‌ها (Notification & Email Dispatch)
 
 Open the booking-process diagram on its own note:
 [[01 Courses/Software Design Principles/Assignments/Weeto DFD Level 1 - Booking|Weeto DFD Level 1 — Booking]].
 
-### DFD notes and implementation mapping
+### DFD notes and pedagogical alignment
 
-- The public booking flow is implemented under `/public/{orgSlug}/{typeSlug}` routes. The recruiter manages organization, interview type, availability and bookings through authenticated routes.
-- Data stores correspond to PostgreSQL tables such as `users`, `refresh_tokens`, `organization`, `interview_type`, `availability_*`, `slots`, `booking` and `notification_outbox`.
-- Booking and slot availability must be coordinated safely to prevent two candidates from taking the same slot. The database enforces a unique active booking per slot.
-- The notification outbox lets the booking operation save notification work, then a separate worker sends email. Email sending is implemented; SMS is not shown in this DFD as an implemented flow.
-- Google Calendar/Meet is conditional: it is used for interview types configured for Google Meet and a connected recruiter account. On-site interviews do not need that external flow.
+- **No Data Stores (No DB):** In line with the instructor's syllabus, early DFD modeling analyzes how data flows between processes, human actors, and external services. Data stores are intentionally excluded until database modeling / ER diagrams are formally covered.
+- **Retained Service Integrations:** Interactions with Google Calendar / Meet (for meeting generation) and the Email Service (for dispatching confirmations) are fully preserved as external entities.
+- **No Advanced Queue / Outbox Mechanics:** Internal implementation artifacts (e.g., asynchronous workers, database tables, and pending queue states) are kept out of this conceptual presentation diagram.
 
 ## Repository evidence
 

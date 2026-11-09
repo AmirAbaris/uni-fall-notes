@@ -22,5 +22,8 @@ status: active
 
 ## Concepts
 
+## Exam Notes
+- [[01 Courses/Software Design Principles/Exam Notes/Software Engineering 1 - Exam Notes (Slides 6-37)|Software Engineering 1 — Exam Notes (Slides 6-37)]]
+
 ## Assignments
 - [[01 Courses/Software Design Principles/Assignments/Semester Presentation Project|Semester Presentation Project]]

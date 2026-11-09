@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "43c617271cd007ee",
+        "id": "a9f235ecd7e5f9ba",
         "type": "tabs",
         "children": [
           {
-            "id": "38ac60ac403b5985",
+            "id": "06bf6ea7dc55a019",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,12 +188,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "38ac60ac403b5985",
+  "active": "06bf6ea7dc55a019",
   "lastOpenFiles": [
     "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 1 - Booking.md",
     "01 Courses/Software Design Principles/Assignments/Weeto Organizational Chart.md",
     "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 0 - Context.md",
+    "01 Courses/Software Design Principles/Assignments/Weeto Organizational Chart - Realistic.md",
+    "01 Courses/AI/Lectures/2026-10-29 AI.md",
+    "Screenshot 2026-11-05 at 6.25.02 PM.png",
+    "Screenshot 2026-11-05 at 3.58.40 PM.png",
     "01 Courses/Software Design Principles/Assignments/Semester Presentation Project.md",
+    "01 Courses/Software Design Principles/Exam Notes/Software Engineering 1 - Exam Notes (Slides 6-37).md",
+    "01 Courses/Software Design Principles/Exam Notes/attachments/slide_13_diagram.png",
+    "01 Courses/Software Design Principles/Exam Notes/attachments/slide_14_diagram.png",
+    "Screenshot 2026-10-29 at 4.25.49 PM.png",
+    "01 Courses/AI/Lectures",
+    "01 Courses/AI/Concepts",
+    "01 Courses/AI/Assignments",
+    "01 Courses/AI/Course.md",
+    "90 Templates/AI Lecture.md",
+    "01 Courses/AI",
     "01 Courses/Software Design Principles/Lectures/2026-10-26 Software Design Principles.md",
     "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-09-27 Statistics and Probability Fundamentals.md",
     "01 Courses/Statistics and Probability Fundamentals/Lectures/2026-10-18 Statistics and Probability Fundamentals.md",
@@ -217,16 +231,10 @@
     "01 Courses/Introduction to Data Mining/Lectures",
     "01 Courses/Introduction to Data Mining/Course.md",
     "01 Courses/Introduction to Data Mining/Concepts",
-    "01 Courses/Introduction to Data Mining/Assignments",
-    "01 Courses/Introduction to Data Mining",
     "01 Courses/Entrepreneurship Fundamentals/Lectures/2026-09-30 Entrepreneurship Fundamentals.md",
     "90 Templates/Lecture.md",
     "90 Templates/Course.md",
     "90 Templates/Assignment.md",
-    "01 Courses/Entrepreneurship Fundamentals/Lectures",
-    "01 Courses/Entrepreneurship Fundamentals/Course.md",
-    "01 Courses/Entrepreneurship Fundamentals/Concepts",
-    "01 Courses/Statistics Fundamentals/Lectures/2026-09-27 Statistics Fundamentals.md",
-    "01 Courses/Statistics Fundamentals/Course.md"
+    "01 Courses/Entrepreneurship Fundamentals/Course.md"
   ]
 }

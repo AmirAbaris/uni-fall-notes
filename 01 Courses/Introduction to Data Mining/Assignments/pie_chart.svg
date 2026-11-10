@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" viewBox="0 0 600 500" style="background-color: #ffffff; font-family: -apple-system, sans-serif;">
+  <text x="300.0" y="45" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">Patient Diagnostic Distribution (EDA)</text>
+  <path d="M 240 260 L 400.00 260.00 A 160 160 0 0 1 87.83 309.44 Z" fill="#3498db" stroke="#ffffff" stroke-width="2"/>
+  <text x="256.27" y="362.72" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="central">45.0%</text>
+  <rect x="440" y="108" width="16" height="16" fill="#3498db" rx="3"/>
+  <text x="465" y="121" font-size="13" fill="#333333">Confirmed Positive (45)</text>
+  <path d="M 240 260 L 87.83 309.44 A 160 160 0 0 1 190.56 107.83 Z" fill="#e74c3c" stroke="#ffffff" stroke-width="2"/>
+  <text x="147.34" y="212.78" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="central">25.0%</text>
+  <rect x="440" y="140" width="16" height="16" fill="#e74c3c" rx="3"/>
+  <text x="465" y="153" font-size="13" fill="#333333">Suspected / Mild (25)</text>
+  <path d="M 240 260 L 190.56 107.83 A 160 160 0 0 1 369.44 165.95 Z" fill="#2ecc71" stroke="#ffffff" stroke-width="2"/>
+  <text x="272.14" y="161.09" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="central">20.0%</text>
+  <rect x="440" y="172" width="16" height="16" fill="#2ecc71" rx="3"/>
+  <text x="465" y="185" font-size="13" fill="#333333">Negative / Healthy (20)</text>
+  <path d="M 240 260 L 369.44 165.95 A 160 160 0 0 1 400.00 260.00 Z" fill="#f1c40f" stroke="#ffffff" stroke-width="2"/>
+  <text x="338.91" y="227.86" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="central">10.0%</text>
+  <rect x="440" y="204" width="16" height="16" fill="#f1c40f" rx="3"/>
+  <text x="465" y="217" font-size="13" fill="#333333">Under Observation (10)</text>
+</svg>

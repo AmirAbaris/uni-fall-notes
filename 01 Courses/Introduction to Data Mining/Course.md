@@ -23,3 +23,4 @@ status: active
 ## Concepts
 
 ## Assignments
+- [[01 Courses/Introduction to Data Mining/Assignments/Assignment 1 - Dissimilarity of Binary Variables and Pie Chart Visualization|Assignment 1 — Dissimilarity of Binary Variables and Pie Chart Visualization]]

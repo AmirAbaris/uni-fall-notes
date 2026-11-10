@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 0 - Context.md",
-                "mode": "preview",
+                "file": "01 Courses/Introduction to Data Mining/Assignments/Assignment 1 - Dissimilarity of Binary Variables and Pie Chart Visualization.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Weeto DFD Level 0 - Context"
+              "title": "Assignment 1 - Dissimilarity of Binary Variables and Pie Chart Visualization"
             }
           }
         ]
@@ -190,9 +190,12 @@
   },
   "active": "06bf6ea7dc55a019",
   "lastOpenFiles": [
+    "01 Courses/Introduction to Data Mining/Assignments/pie_chart.svg",
+    "01 Courses/Introduction to Data Mining/Assignments/Assignment 1 - Dissimilarity of Binary Variables and Pie Chart Visualization.md",
+    "01 Courses/Introduction to Data Mining/Assignments/assignment1.py",
+    "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 0 - Context.md",
     "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 1 - Booking.md",
     "01 Courses/Software Design Principles/Assignments/Weeto Organizational Chart.md",
-    "01 Courses/Software Design Principles/Assignments/Weeto DFD Level 0 - Context.md",
     "01 Courses/Software Design Principles/Assignments/Weeto Organizational Chart - Realistic.md",
     "01 Courses/AI/Lectures/2026-10-29 AI.md",
     "Screenshot 2026-11-05 at 6.25.02 PM.png",
@@ -217,7 +220,6 @@
     "Screenshot 2026-10-18 at 9.14.23 AM.png",
     "Screenshot 2026-10-18 at 9.07.23 AM.png",
     "Screenshot 2026-10-18 at 8.51.57 AM.png",
-    "Screenshot 2026-10-18 at 8.31.58 AM.png",
     "01 Courses/Statistics and Probability Fundamentals/Course.md",
     "00 Dashboard.md",
     "01 Courses/Introduction to Data Mining/Lectures/2026-10-13 Introduction to Data Mining.md",
@@ -230,11 +232,8 @@
     "01 Courses/Software Design Principles",
     "01 Courses/Introduction to Data Mining/Lectures",
     "01 Courses/Introduction to Data Mining/Course.md",
-    "01 Courses/Introduction to Data Mining/Concepts",
     "01 Courses/Entrepreneurship Fundamentals/Lectures/2026-09-30 Entrepreneurship Fundamentals.md",
     "90 Templates/Lecture.md",
-    "90 Templates/Course.md",
-    "90 Templates/Assignment.md",
-    "01 Courses/Entrepreneurship Fundamentals/Course.md"
+    "90 Templates/Course.md"
   ]
 }
